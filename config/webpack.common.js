@@ -157,7 +157,7 @@ module.exports = {
     // Description: Do type checking in a separate process, so webpack don't need to wait.
     //
     // See: https://github.com/s-panferov/awesome-typescript-loader#forkchecker-boolean-defaultfalse
-    new ForkCheckerPlugin(),
+    // new ForkCheckerPlugin(),
 
     // Plugin: OccurenceOrderPlugin
     // Description: Varies the distribution of the ids to get the smallest id length
