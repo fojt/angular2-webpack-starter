@@ -57,7 +57,7 @@
     "start": "npm run server:dev",
       "start:hmr": "npm run server:dev:hmr",
 
-    "postinstall": "npm run typings -- install",
+    "postinstall": "./node_modules/.bin/typings install && npm run build:prod",
 
       "preversion": "npm test",
     "version": "npm run build",
